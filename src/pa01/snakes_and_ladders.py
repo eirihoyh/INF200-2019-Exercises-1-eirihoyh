@@ -8,7 +8,7 @@ import numpy as np
 
 
 def throw_dice():
-    return random.randint(1, 6)
+	return random.randint(1, 6)
 
 
 def single_game(num_players):
