@@ -12,8 +12,8 @@ def throw_dice():
 
 
 def single_game(num_players):
-    snake_ladder = {1: 40, 8: 10, 36: 52, 43: 62, 49: 79, 65: 82, 68: 85,
-                    24: 5, 33: 3, 42: 30, 56: 37, 64: 27, 74: 12, 87: 70}
+	snake_ladder = {1 : 40, 8: 10, 36: 52, 43: 62, 49: 79, 65: 82, 68: 85,
+					24: 5, 33: 3, 42: 30, 56: 37, 64: 27, 74: 12, 87: 70}
 
     player_pos = [0] * num_players  # Initializing player positions
     player_moves = [0] * num_players  # Initializing player moves
